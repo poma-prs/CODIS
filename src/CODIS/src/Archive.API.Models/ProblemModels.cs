@@ -2,6 +2,12 @@
 
 namespace Archive.API.Models
 {
+    public class StatementVersion
+    {
+        public string Language { get; set; }
+        public string Format { get; set; }
+    }
+
     public class ProblemInfo
     {
         public string Name { get; set; }
