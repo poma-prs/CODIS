@@ -2,6 +2,13 @@
 
 namespace Archive.API.Models
 {
+    public class Problem
+    {
+        public Dictionary<string, ProblemInfo> Info { get; set; }
+        public Statement Statement { get; set; }
+        public ProblemResourceLimits ResourceLimits { get; set; }
+    }
+
     public class Statement
     {
         public StatementVersion Version { get; set; }
