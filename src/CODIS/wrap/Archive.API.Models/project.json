@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../src/Archive.API.Models/Archive.API.Models.csproj",
+      "bin": {
+        "assembly": "../../src/Archive.API.Models/obj/{configuration}/Archive.API.Models.dll",
+        "pdb": "../../src/Archive.API.Models/obj/{configuration}/Archive.API.Models.pdb"
+      }
+    }
+  }
+}

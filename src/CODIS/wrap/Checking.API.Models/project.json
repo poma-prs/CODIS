@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../src/Checking.API.Models/Checking.API.Models.csproj",
+      "bin": {
+        "assembly": "../../src/Checking.API.Models/obj/{configuration}/Checking.API.Models.dll",
+        "pdb": "../../src/Checking.API.Models/obj/{configuration}/Checking.API.Models.pdb"
+      }
+    }
+  }
+}
