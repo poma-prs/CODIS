@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-using CODIS.API.Models;
+using Checking.API.Models;
 using Microsoft.AspNet.Mvc;
 using Swashbuckle.SwaggerGen.Annotations;
 
-namespace CODIS.API.Controllers
+namespace Checking.API.Controllers
 {
     [Route("api/[controller]")]
     public class SubmitsController : Controller

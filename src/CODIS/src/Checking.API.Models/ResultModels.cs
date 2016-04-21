@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CODIS.API.Models
+namespace Checking.API.Models
 {
     public class SubmitResultModel
     {

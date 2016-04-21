@@ -1,4 +1,4 @@
-﻿namespace CODIS.API.Models
+﻿namespace Checking.API.Models
 {
     public class SubmitModel
     {
