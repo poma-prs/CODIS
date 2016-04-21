@@ -13,7 +13,7 @@ namespace Checking.API.Controllers
         [HttpPost("send")]
         [SwaggerOperation("send")]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(ICollection<long>))]
-        public IActionResult Send([FromBody] SubmitModel submit)
+        public IActionResult Send([FromBody] Submit submit)
         {
             throw new NotImplementedException();
         }

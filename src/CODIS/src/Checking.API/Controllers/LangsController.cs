@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
+using Checking.API.Models;
 using Microsoft.AspNet.Mvc;
 using Swashbuckle.SwaggerGen.Annotations;
 
@@ -11,7 +12,7 @@ namespace Checking.API.Controllers
     {
         [HttpGet]
         [SwaggerOperation("get")]
-        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(ICollection<string>))]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(ICollection<Language>))]
         public IActionResult Get()
         {
             throw new NotImplementedException();

@@ -12,7 +12,7 @@ namespace Checking.API.Controllers
     {
         [HttpGet]
         [SwaggerOperation("get")]
-        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(ICollection<SubmitResultModel>))]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(ICollection<SubmitResult>))]
         public IActionResult Get(string ids)
         {
             throw new NotImplementedException();

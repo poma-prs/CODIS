@@ -2,14 +2,14 @@
 
 namespace Checking.API.Models
 {
-    public class SubmitResultModel
+    public class SubmitResult
     {
         public long Id { get; set; }
-        public BuildResultModel BuildResult { get; set; }
-        public ICollection<TestGroupResultModel> TestResults { get; set; }
+        public BuildResult BuildResult { get; set; }
+        public ICollection<TestGroupResult> TestResults { get; set; }
     }
 
-    public class BuildResultModel
+    public class BuildResult
     {
         public BuildResultStatus Status { get; set; }
         public string Output { get; set; }
@@ -21,20 +21,20 @@ namespace Checking.API.Models
         Failed = 1
     }
 
-    public class TestGroupResultModel
+    public class TestGroupResult
     {
         public bool Executed { get; set; }
-        public ICollection<TestResultModel> TestResults { get; set; }
+        public ICollection<TestResult> TestResults { get; set; }
     }
 
-    public class TestResultModel
+    public class TestResult
     {
         public JudgeResultStatus Status { get; set; }
         public string JudgeMessage { get; set; }
-        public ResourceUsageModel ResourceUsage { get; set; }
+        public ResourceUsage ResourceUsage { get; set; }
     }
 
-    public class ResourceUsageModel
+    public class ResourceUsage
     {
         public ulong TimeUsageMillis { get; set; }
         public ulong MemoryUsageBytes { get; set; }
