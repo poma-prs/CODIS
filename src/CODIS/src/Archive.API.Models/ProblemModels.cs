@@ -2,6 +2,11 @@
 
 namespace Archive.API.Models
 {
+    public class ProblemInfo
+    {
+        public string Name { get; set; }
+    }
+
     public class ProblemResourceLimits
     {
         public long TimeLimitMillis { get; set; }
