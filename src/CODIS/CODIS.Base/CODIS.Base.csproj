@@ -44,12 +44,17 @@
     <Compile Include="IAuthManager.cs" />
     <Compile Include="IBaseRepository.cs" />
     <Compile Include="IExecutorWebSpec.cs" />
+    <Compile Include="ILangRepository.cs" />
     <Compile Include="ILangsController.cs" />
+    <Compile Include="IProblemRepository.cs" />
     <Compile Include="IProblemsController.cs" />
     <Compile Include="IRabbitQueue.cs" />
+    <Compile Include="IResultRepository.cs" />
     <Compile Include="IResultsController.cs" />
     <Compile Include="IRoleManager.cs" />
+    <Compile Include="ISubmitRepository.cs" />
     <Compile Include="ISubmitsController.cs" />
+    <Compile Include="ITestingManager.cs" />
     <Compile Include="LangModels.cs" />
     <Compile Include="ProblemModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
