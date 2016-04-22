@@ -42,9 +42,11 @@
   <ItemGroup>
     <Compile Include="IArchiveWebSpec.cs" />
     <Compile Include="IAuthManager.cs" />
+    <Compile Include="IBaseRepository.cs" />
     <Compile Include="IExecutorWebSpec.cs" />
     <Compile Include="ILangsController.cs" />
     <Compile Include="IProblemsController.cs" />
+    <Compile Include="IRabbitQueue.cs" />
     <Compile Include="IResultsController.cs" />
     <Compile Include="IRoleManager.cs" />
     <Compile Include="ISubmitsController.cs" />
