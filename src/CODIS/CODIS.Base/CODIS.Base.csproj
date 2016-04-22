@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IArchiveWebSpec.cs" />
+    <Compile Include="IExecutorWebSpec.cs" />
     <Compile Include="ILangsController.cs" />
     <Compile Include="IProblemsController.cs" />
     <Compile Include="IResultsController.cs" />
