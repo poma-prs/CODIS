@@ -2,7 +2,7 @@
 
 namespace CODIS.Base
 {
-    public interface IProblemController
+    public interface IProblemsController
     {
         ICollection<Problem> GetCollection(long collectionId);
         string GetStatementUrl(long problemId);
