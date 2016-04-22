@@ -1,6 +1,6 @@
 ﻿namespace CODIS.Base
 {
-    public interface ILangRepository : IBaseRepository<Language>
+    public interface ILangRepository : IBaseRepository
     {
     }
 }

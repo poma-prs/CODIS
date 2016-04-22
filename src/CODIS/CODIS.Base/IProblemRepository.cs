@@ -1,6 +1,6 @@
 ﻿namespace CODIS.Base
 {
-    public interface IProblemRepository : IBaseRepository<Problem>
+    public interface IProblemRepository : IBaseRepository
     {
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace CODIS.Base
 {
-    public interface IBaseRepository<T>
+    public interface IBaseRepository
     {
-        T Get(long id);
-        T Add(T entry);
-        void Update(T entry);
-        void Delete(T entry);
+        object Get(long id);
+		object Add(object entry);
+		void Update(object entry);
+		void Delete(object entry);
     }
 }

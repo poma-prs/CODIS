@@ -1,6 +1,6 @@
 ﻿namespace CODIS.Base
 {
-    public interface ISubmitRepository : IBaseRepository<Submit>
+    public interface ISubmitRepository : IBaseRepository
     {
     }
 }
