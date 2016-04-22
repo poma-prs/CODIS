@@ -4,6 +4,6 @@ namespace CODIS.Base
 {
     public interface IResultsController
     {
-        ICollection<SubmitResult> GetSubmitResults(ICollection<long> ids);
+        ICollection<SubmitResult> GetSubmitResults(ICollection<long> ids, string token);
     }
 }
