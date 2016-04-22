@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2F8F650C-D46D-45FF-8773-4E9D27655083}</ProjectGuid>
+    <ProjectGuid>{50454E4B-C5F6-4DC3-9712-31731A8B3944}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Archive.API.Models</RootNamespace>
-    <AssemblyName>Archive.API.Models</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <RootNamespace>Checking.Base</RootNamespace>
+    <AssemblyName>Checking.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,8 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProblemModels.cs" />
+    <Compile Include="IRabbitQueue.cs" />
+    <Compile Include="ISubmitCallbackServer.cs" />
+    <Compile Include="ITestingManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Checking.API.Models\Checking.API.Models.csproj">
+      <Project>{35ac57b8-5de3-4d75-84ea-a3102c73108a}</Project>
+      <Name>Checking.API.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CODIS.Data\CODIS.Data.csproj">
+      <Project>{c217af60-e8a1-41ed-b52c-ef0a83f9e42b}</Project>
+      <Name>CODIS.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
