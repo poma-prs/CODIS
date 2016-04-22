@@ -45,6 +45,7 @@
     <Compile Include="ILangsController.cs" />
     <Compile Include="IProblemsController.cs" />
     <Compile Include="IResultsController.cs" />
+    <Compile Include="IRoleManager.cs" />
     <Compile Include="ISubmitsController.cs" />
     <Compile Include="LangModels.cs" />
     <Compile Include="ProblemModels.cs" />
