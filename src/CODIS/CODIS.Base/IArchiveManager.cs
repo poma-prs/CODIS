@@ -2,10 +2,8 @@
 
 namespace CODIS.Base
 {
-    public interface IProblemsController
+    public interface IArchiveManager
     {
-        IArchiveManager ArchiveManager { get; }
-
         ICollection<Problem> GetCollection(long collectionId, string token);
         string GetStatementUrl(long problemId, string token);
     }
