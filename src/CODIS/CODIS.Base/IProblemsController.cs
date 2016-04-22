@@ -4,6 +4,8 @@ namespace CODIS.Base
 {
     public interface IProblemsController
     {
+        IProblemRepository ProblemRepository { get; }
+        IAuthManager AuthManager { get; }
         IArchiveManager ArchiveManager { get; }
 
         ICollection<Problem> GetCollection(long collectionId, string token);
